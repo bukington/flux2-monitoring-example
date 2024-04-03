@@ -17,3 +17,7 @@ patches:
     target:
       kind: Deployment
       name: "(kustomize-controller|helm-controller|source-controller)"
+images:
+- name: ghcr.io/fluxcd/kustomize-controller
+  newName: ghcr.io/bukington/kustomization-controller
+  newTag: latest
