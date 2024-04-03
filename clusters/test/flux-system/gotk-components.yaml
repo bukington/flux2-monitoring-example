@@ -5361,7 +5361,7 @@ spec:
             fieldRef:
               fieldPath: metadata.namespace
         image: ghcr.io/fluxcd/kustomize-controller:v1.2.2
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         livenessProbe:
           httpGet:
             path: /healthz
